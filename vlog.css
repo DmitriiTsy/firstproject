@@ -2,17 +2,74 @@ html,css {
     background-color: white
 }
 
-menu {
-    padding-left: 10px;
-}
+/* menu decloration styles */
 
-.menu {
-    padding: 50% 0px 0px 0px;
+.vertical-menu {
+    width: 100px;
+  }
   
+  .vertical-menu a {
+    background-color: #181818;
+    color: #909096; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    text-align: center;
+    border: 0.2px solid #282828;
+    Font: 16px "Open-Sans", sans-serif;
+
+
+  }
+  
+  .vertical-menu a:hover {
+    color: #08fdd8; 
+
+  }
+
+  .main-menu {
+      background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    max-width: 20%;
+    float: left; 
+
+  
+
+
+  }
+  
+ .main-menu.top {
+     padding: 60px 0px 20px; 
+     display: column;
+ }
+
+ .img {
+     max-width: 5px;
+     height: auto;
+    border-radius: 8px;
+ }
+
+.social_media { 
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: green; 
 }
 
-.linkedin {
-    width: 200px;
-    height: 200px;
+.social_media {
+  opacity: 0.7; 
+}
 
+.linkedin{
+  background: blue;
+  color: white;
+}
+.git {
+  background: grey;
+  color: white; 
 }
