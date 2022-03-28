@@ -1,75 +1,166 @@
-html,css {
-    background-color: white
+
+
+
+
+html {
+height: 300px;
+width: 700px; 
+background-color: #28282B;
 }
 
-/* menu decloration styles */
+.main-menu {
+  background-size: cover;
+  background-color: #181818;
+  height: 50em; 
+  width: 10em;
+  display: flex; 
+  float: left ; 
+  flex-direction: column; 
+  margin-left:-8px;
+  margin-top: -8px;
+
+}
+
+.headline {
+  text-align: center;
+  color: white;
+  margin-top: -40px;
+}
+
+.small_headline {
+  text-align: center;
+  color: grey;
+  opacity: 0.7;
+  font-size: 12px;
+  margin-top: -20px;
+  padding: 20px;
+}
+
 
 .vertical-menu {
-    width: 100px;
-  }
-  
-  .vertical-menu a {
-    background-color: #181818;
-    color: #909096; 
-    display: block; 
-    padding: 12px; 
-    text-decoration: none; 
-    text-align: center;
-    border: 0.2px solid #282828;
-    Font: 16px "Open-Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
 
-
-  }
-  
-  .vertical-menu a:hover {
-    color: #08fdd8; 
-
-  }
-
-  .main-menu {
-      background-color: #181818;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 0;
-    max-width: 20%;
-    float: left; 
-
-  
-
-
-  }
-  
- .main-menu.top {
-     padding: 60px 0px 20px; 
-     display: column;
- }
-
- .img {
-     max-width: 5px;
-     height: auto;
-    border-radius: 8px;
- }
-
-.social_media { 
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  background-color: #181818;
+  color: #909096; 
+  padding: 20px; 
+  text-decoration: none; 
   text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+}
+
+a{
   text-decoration: none;
-  color: green; 
+  color: #909096;
+}
+
+.About{
+  text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+  width: 140px;
+  padding: 15px;
+  margin: -20px
+}
+
+.My_Skills{
+  text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+  width: 140px;
+  padding: 15px;
+  margin: 20px;
+  margin-left: -20px;
+
+}
+
+
+.Work{
+  text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+  width: 140px;
+  padding: 15px;
+  margin: -20px;
+}
+
+
+.Contact{
+  text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+  width: 140px;
+  padding: 15px;
+  margin: 20px;
+  margin-left: -20px;
+}
+
+
+
+.Blog{
+  text-align: center;
+  border: 0.2px solid #282828;
+  Font: 16px "Open-Sans", sans-serif;
+  width: 140px;
+  padding: 15px;
+  margin: -20px;
+}
+
+
+
+.logo {
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.vertical-menu a:hover {
+  color: #08fdd8; 
 }
 
 .social_media {
-  opacity: 0.7; 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 50px;
+margin-right: 50px;
 }
 
-.linkedin{
-  background: blue;
-  color: white;
+.main-menu_top{
+justify-content: space-between;
 }
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  background: none;
+}
+
 .git {
-  background: grey;
-  color: white; 
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  background: none;
+}
+
+.big_logo{
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
+
+img:hover{
+  color: #08fdd8; 
+  background-color: #08fdd8; 
 }
